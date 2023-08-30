@@ -13,7 +13,7 @@ body{
 }
 
 span{
-    color: #F94C10;
+    color: #146c94;
 }
 
 .c-item{
@@ -155,7 +155,7 @@ section{
     color: rgb(255, 255, 255);
 }
 span{
-    color: #F94C10;
+    color: #19a7ce;
     font-size: 90px;
 }
 #font2{
@@ -214,6 +214,7 @@ footer{
 .container h4{
     padding: 1rem;
     color: #146c94;
+    /* font-weight: bolder; */
 }
 
 .container2{
@@ -257,7 +258,7 @@ footer{
     margin: 5px;
 }
 #age {
-    width: 50px;
+    width: 80px;
     margin: 5px;
 }
 #home {
