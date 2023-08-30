@@ -241,3 +241,81 @@ footer{
 .buttonholder button{
     background-color: #146c94;
 }
+
+/* This section is for Form CSS */
+.appointment-form {
+    text-align: center;
+    color: black;
+}
+#firstname, #lastname {
+    width: 244px;
+    padding: 5px;
+    margin: 5px;
+}
+#date, #age {
+    padding: 5px;
+    margin: 5px;
+}
+#age {
+    width: 50px;
+    margin: 5px;
+}
+#home {
+    width: 505px;
+    padding: 5px;
+    margin: 5px;
+}
+#municipal, #province, #postal {
+    width: 159px;
+    padding: 5px;
+    margin: 5px;
+}
+#height, #weight {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+#gender {
+    padding: 5px;
+    margin: 5px;
+}
+#contact, #email {
+    width: 244px;
+    padding: 5px;
+    margin: 5px;
+}
+#econtactp, #econtact {
+    width: 244px;
+    padding: 5px;
+    margin: 5px;
+}
+#medical-history {
+    width: 500px;
+    margin: 5px;
+}
+#pcp, #visit {
+    width: 244px;
+    padding: 5px;
+    margin: 5px;
+}
+#symptoms, #duration-symptoms {
+    width: 244px;
+    padding: 5px;
+    margin: 5px;
+}
+#closeButton {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.appointment-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
