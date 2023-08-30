@@ -118,3 +118,63 @@ h2{
     font-size: 40px;
 } 
 
+
+/* FOOTER FOOTER FOOTER!! */
+
+footer{
+    background-color: #19a7ce;
+    width: 100%;
+}
+
+.container-holder{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 2rem;
+}
+
+.container ul li{
+    list-style: none;
+    padding: 0.5rem;
+    font-size: 18px;
+}
+
+.container ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container{
+    display: block;
+    color: #ffffff;
+}
+
+.container h4{
+    padding: 1rem;
+    color: #146c94;
+}
+
+.container2{
+    padding: 0 2rem;
+}
+
+.icontainer{
+    display: flex;
+    padding: 1rem;
+}
+
+.icontainer a{
+    /* border: 2px solid #146c94; */
+    padding: 10px 5px;
+    margin: 5px;
+    font-size: 35px;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.icontainer a:hover{
+    color: #146c94;
+}
+
+.buttonholder button{
+    background-color: #146c94;
+}
