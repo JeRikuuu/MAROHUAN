@@ -181,6 +181,17 @@ h2{
     font-size: 40px;
 } 
 
+.validation{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.validation a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 /* FOOTER FOOTER FOOTER!! */
 
